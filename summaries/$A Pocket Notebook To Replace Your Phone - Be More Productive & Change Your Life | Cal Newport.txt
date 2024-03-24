@@ -1,0 +1,98 @@
+cHere are the actionable points from the video:
+                    -------------------------------------
+                    CHAPTER: Singe purpose notebooks
+                    -------------------------------------
+                     - Use a small, dedicated notebook (like Field Notes) for a specific creative idea or project.
+- This method works well due to its neuroscientific focus on cognitive context, low friction for quick capture, and ritualistic aspects.
+- When working on a problem requiring extended thought and creative insight, grab a dedicated notebook for that idea.
+- Have a stack of notebooks; when a problem arises, designate a notebook for it and continue using it until you have a solution or insight.
+- Don't reuse notebooks for multiple topics; instead, treat each one as an artifact reflecting your thinking on a specific idea.
+- For weekly planning, review active idea notebooks and determine whether to incorporate the ideas into tasks, calendar events, or new projects.
+                    -------------------------------------
+                    
+                    -------------------------------------
+                    CHAPTER: If “pseudo-productivity” isn’t effective, why is it so common? 
+                    -------------------------------------
+                     - Pseudo productivity is using visible activity as a proxy for actual productive effort.
+- Knowledge work emerged in the mid 20th century and had no clear way to measure productivity, so visible activity became the default measurement.
+- Managerial capitalism allows for optimization of things other than productivity (stability, risk reduction, etc.) leading to acceptance of pseudo productivity.
+- In complex knowledge work organizations, only a small number of people directly contribute to the creation of value.
+- Most employees are involved in supporting roles rather than creating core cognitive capital.
+- There is often a disconnect between how someone works and the ultimate financial outcome in knowledge work organizations.
+                    -------------------------------------
+                    
+                    -------------------------------------
+                    CHAPTER: Can you explain the difference between limiting missions, projects, and daily goals?
+                    -------------------------------------
+                     - Acknowledge that knowledge work is a complex system.
+- To manage daily tasks, consider your work at three levels: mission, projects, and daily goals.
+	+ Mission: Overarching goal or purpose
+	+ Projects: Specific projects that advance the mission
+	+ Daily Goals: Tasks completed each day that move projects forward
+- Limit the number of missions, projects, and daily goals to increase efficiency.
+- Start by focusing and reducing the number of missions.
+- Once missions are limited, reduce the number of active projects.
+- With fewer projects and missions, selecting daily goals becomes easier.
+- Use a weekly plan to decide which projects to prioritize each day.
+- Don't stress about choosing the "perfect" project; simply aim to make consistent progress on significant tasks daily.
+                    -------------------------------------
+                    
+                    -------------------------------------
+                    CHAPTER: Should everyone buy a $50 notebook?
+                    -------------------------------------
+                     - Aim to complete one substantial piece of "deep work" per day.
+- Invest in high-quality tools that signal importance and encourage seriousness. This includes paying for the full versions of necessary software and hardware.
+- When deciding how much to invest in tools, consider the potential value you could create in the near future.
+- Reinvest 5-10% of your take-home income (if you are a high-level creative producer) in tools and contexts that will improve your ability to produce better work.
+                    -------------------------------------
+                    
+                    -------------------------------------
+                    CHAPTER: How does “Slow Productivity” relate to mental models and first principles?
+                    -------------------------------------
+                     Actionable Points:
+
+1. Pseudo productivity, which focuses on appearing busy through activities such as answering emails, responding to Slack messages, attending meetings, and jumping on calls, is not true productivity.
+2. True productivity involves producing valuable outcomes and shifting from a mentality of efficiency and speed to one of careful workload management, variation, and quality care.
+3. The three principles of slow productivity are:
+a. Do fewer things
+b. Work at a natural pace
+c. Obsess over quality
+                    -------------------------------------
+                    
+                    -------------------------------------
+                    CHAPTER: Should I read your new book slowly?
+                    -------------------------------------
+                     - Read "Slow Productivity" cover-to-cover first to understand the concepts and how they connect.
+- After initially reading, go back through each principle (pseudo productivity, mental model shift, and obsession over quality) at your own pace.
+- Start experimenting with implementing the principles in the order that makes the most sense to you and fits your goals.
+- Spend time focusing on each principle individually, as some may require longer periods to fully integrate into your workflow.
+                    -------------------------------------
+                    
+                    -------------------------------------
+                    CHAPTER: Does Cal ever stress about work?
+                    -------------------------------------
+                     - After implementing Cal Newport's principles, expect to feel synergy and relief as everything begins to click and work together (3 months after receiving the book)
+- Share struggles and failures in implementing best practices, as everyone deals with their own imperfections and stubborn inefficiencies (Cal Newport has insomnia and anxiety)
+- Develop coping mechanisms based on personal limitations; e.g., Cal Newport writes slowly due to fatigue, so he focuses on steady progress over longer periods instead of daily output (4-month project timelines, flexible schedules)
+- Create routines to address specific issues:
+	+ Shutdown routine to reduce anxiety related to work (evening distractions)
+	+ Fixed schedule of productivity to prevent working excessively and maintain balance
+	+ Limit the number of projects worked on at once
+	+ Avoid using social media
+	+ Allocate limited time to new endeavors (half-day per week for podcast recording)
+- Focus on becoming exceptionally skilled rather than attempting to force outcomes through excessive effort (Steve Martin's advice: "be so good they can't ignore you")
+                    -------------------------------------
+                    
+                    -------------------------------------
+                    CHAPTER: Applying lifestyle-centric career planning
+                    -------------------------------------
+                     Actionable points:
+
+1. Focus on "lifestyle centric career planning" - determine what you want in your lifestyle (place of residence, daily routine, etc.) and work backward to figure out your career path.
+2. Consider choosing a job based on lifestyle compatibility rather than solely on potential prestige or recognition.
+3. Read "So Good They Can't Ignore You" by Cal Newport for more insights into building a fulfilling career.
+4. Look into purchasing term life insurance early, as prices increase with age. Use Policy Genius to easily compare quotes and find the best option.
+5. Check out Mint Mobile for affordable wireless plans ($15/month) and consider their low-cost options for children's cell phone plans.
+6. Be aware of the potentially addictive nature of certain apps, like TikTok, and evaluate whether continued usage aligns with your personal goals and values.
+                    -------------------------------------
+                    

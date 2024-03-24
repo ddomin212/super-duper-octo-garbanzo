@@ -7,9 +7,15 @@ from hugchat.login import Login
 from env import EMAIL, PASSWD, COOKIE_PATH, API_KEY
 from youtube_transcript_api import YouTubeTranscriptApi
 from datetime import datetime
+from copy import deepcopy
+import time
 
 def get_answer(transcript, chapter_title):
-    PROMPT = f"""Give me all the actionable points of this video transcript:
+    PROMPT = f"""Give me all the actionable points of this video transcript. 
+    Keep it concise and to the point, focus on the action, and avoid fluff.
+    I don't need the introduction or the conclusion, just the actionable points.
+    I don't really need to know why, just what to do. I'll find out why later myself.
+    Also skip any ads that might be in the transcript. I really do not care about those.
 
     TRANSCRIPT: {transcript}"""
 
@@ -24,10 +30,10 @@ def get_answer(transcript, chapter_title):
 
     full_response = ""
 
-    print("--------")
-    print("CHAPTER: ", chapter_title)
-    print("============")
-    print("Response: ", end="", flush=True)
+    #print("--------")
+    #print("CHAPTER: ", chapter_title)
+    #print("-------------------------------------")
+    #print("Response: ", end="", flush=True)
 
     # Stream response
     for resp in chatbot.query(
@@ -36,11 +42,11 @@ def get_answer(transcript, chapter_title):
     ):
         try:
             full_response += resp["token"]
-            print(resp["token"], end="", flush=True)
+            #print(resp["token"], end="", flush=True)
         except TypeError:
-            print(".", end="", flush=True)
+            #print(".", end="", flush=True)
             break
-    print("--------")
+    #print("--------")
 
     return full_response
 
@@ -80,10 +86,6 @@ def extract_timestamps(text):
         timestamp = match.group('timestamp')
         title = match.group('title')
         chapter_titles_timestamps.append((timestamp, title))
-
-    # Print extracted timestamps and chapter titles
-    for timestamp, title in chapter_titles_timestamps:
-        print(f"Timestamp: {timestamp}, Chapter Title: {title}")
     
     return chapter_titles_timestamps
 
@@ -130,14 +132,16 @@ def combine_transcript_with_chapters(transcript, chapters):
     return combined_chapters
 
 
-if __name__ == "__main__":
+def main():
     if len(sys.argv) < 2:
         print("Usage: python script.py <YouTube_URL1> <YouTube_URL2> ...")
         sys.exit(1)
 
-    for url in sys.argv[1:]:
+    urls = deepcopy(sys.argv[1:])
+
+    for url in urls:
         # Extract video ID from URL
-        video_id = url.split('=')[-1]
+        video_id = url.split('=')[-1].split('&')[0]
 
         description, title = get_video_description(API_KEY, video_id)
         if description:
@@ -146,27 +150,28 @@ if __name__ == "__main__":
         transcript, time_duration_sec, raw = get_transcript(video_id)
         
         if transcript:
-            print(f"Transcript for video {url}:\n{transcript}\n")
+            #print(f"Transcript for video {url}:\n{transcript}\n")
             if time_duration_sec < 900:
-                fulltext = get_answer(transcript)
+                fulltext = get_answer(transcript, "all").replace('*', '-')
                 with open(f"./summaries/${title}.txt", 'w') as file:
                     file.write(fulltext)
             else:
                 combined_chapters = combine_transcript_with_chapters(raw, timestamps)
                 fulltext = """Here are the actionable points from the video:"""
-                
+                #
                 for chapter_title, chapter_text in combined_chapters:
+                    time.sleep(60)
                     fulltext += f"""
-    -------------------------------------
-    CHAPTER: {chapter_title}
-    =====================================
-    {get_answer(' '.join(chapter_text), chapter_title)}
-    -------------------------------------
-    """
-                
-                print(fulltext)
+                    -------------------------------------
+                    CHAPTER: {chapter_title}
+                    -------------------------------------
+                    {get_answer(' '.join(chapter_text), chapter_title).replace('*', '-')}
+                    -------------------------------------
+                    """
+                #print(fulltext)
                 with open(f"./summaries/${title}.txt", 'w') as file:
                     file.write(fulltext)
-                
-    sys.exit(1)
+
+if __name__ == "__main__":
+    main()
                 

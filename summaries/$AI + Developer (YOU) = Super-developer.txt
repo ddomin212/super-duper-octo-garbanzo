@@ -1,0 +1,6 @@
+ - Be cautious of claims made in demos of AI tools, as they often exaggerate strengths and minimize weaknesses.
+- The purpose of replacing developers has existed for a long time, with various tools attempting to simplify coding or make it accessible to non-programmers.
+- Current AI tools, such as CoPilot, CAD, and others, can assist with simple tasks and boilerplate code but struggle with more complex tasks.
+- While AI tools may change the developer's role, they won't eliminate the need for human developers due to unique creative problem-solving abilities.
+- Instead of worrying about replacement, become familiar with AI tools, learn about AI, and incorporate appropriate tools into your workflow.
+- Embrace the future of integrating AI into the field and continue learning to code, as developers provide irreplaceable skills and understanding.
